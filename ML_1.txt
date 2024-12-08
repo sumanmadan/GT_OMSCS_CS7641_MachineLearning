@@ -1,0 +1,69 @@
+1. What is the key difference between classification and regression?
+A. Classification maps input to discrete labels, while regression maps input to a continuous domain.
+B. Classification involves predicting numerical values, while regression predicts categories.
+C. Classification is only used for images, while regression is only used for numerical data.
+D. Classification and regression are interchangeable terms in machine learning.
+Answer: A
+
+2. Which of the following is an example of a classification problem?
+A. Predicting the price of a house based on its features.
+B. Determining the gender of a person from their image.
+C. Forecasting the temperature for the next week.
+D. Estimating the weight of a product based on its dimensions.
+Answer: B
+
+3. What term describes the set of all possible functions that map inputs to outputs in classification?
+A. Target Concept
+B. Hypothesis Class
+C. Testing Set
+D. Training Data
+Answer: B
+
+4. Which of the following best describes "Sample" in classification learning?
+A. A set of all possible functions mapping input to output.
+B. A concept that may be the correct mapping of inputs to outputs.
+C. Training data paired with the correct label.
+D. Data used to evaluate the candidate concept.
+Answer: C
+
+5. A dataset is used to evaluate a trained model. This dataset is called the:
+A. Training Set
+B. Candidate Set
+C. Testing Set
+D. Sample Set
+Answer: C
+
+6. What is a "Target Concept" in classification?
+A. A specific instance used for testing the hypothesis.
+B. The ideal function or concept we aim to learn.
+C. Any function that maps inputs to outputs.
+D. The input data paired with the correct label.
+Answer: B
+
+7. Which of the following could make regression a classification problem?
+A. Mapping to a continuous domain.
+B. Mapping to real integers in a finite domain.
+C. Using a large training dataset.
+D. Using images as input.
+Answer: B
+
+8. In classification, what term refers to a concept that may be the correct mapping of inputs to outputs?
+A. Instance
+B. Hypothesis Class
+C. Candidate
+D. Target Concept
+Answer: C
+
+9. Which of the following best defines "Instances"?
+A. The actual values produced by the classification model.
+B. Vectors of attributes defining the input space.
+C. A set of data used for evaluating the hypothesis.
+D. The correct labels paired with the training data.
+Answer: B
+
+10. Which of these is true about classification and regression?
+A. Both are used to map inputs to continuous domains.
+B. Classification is always more accurate than regression.
+C. Regression can be reinterpreted as classification if the domain is finite and discrete.
+D. Regression is a subset of classification tasks.
+Answer: C
