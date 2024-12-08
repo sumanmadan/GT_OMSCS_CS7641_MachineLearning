@@ -1,0 +1,81 @@
+Here’s another set of multiple-choice questions based on the same topic:
+
+1. What is the "Concept" in classification learning?
+A. A function that maps inputs to outputs.
+B. The correct labels paired with the training data.
+C. The set of all possible input-output mappings.
+D. The data used for model evaluation.
+
+Answer: A
+
+2. Which of the following is a regression problem?
+A. Classifying whether an email is spam or not.
+B. Determining the species of a flower based on petal measurements.
+C. Predicting the annual salary of an individual based on their education and experience.
+D. Identifying the type of terrain from a satellite image.
+
+Answer: C
+
+3. The "Hypothesis Class" in classification refers to:
+A. The data used for training a machine learning model.
+B. The set of all possible functions mapping inputs to outputs.
+C. The ideal function or mapping we aim to learn.
+D. A function that maps only discrete labels to inputs.
+
+Answer: B
+
+4. What is a "Testing Set"?
+A. Data used to refine and improve the model.
+B. Data paired with the correct label for training.
+C. Data used to evaluate the performance of a candidate concept.
+D. The final model used to make predictions.
+
+Answer: C
+
+5. Which of the following can transform a regression problem into a classification problem?
+A. Reducing the size of the dataset.
+B. Mapping to a finite and discrete domain, such as integers.
+C. Using continuous domain labels.
+D. Increasing the complexity of the hypothesis class.
+
+Answer: B
+
+6. "Instances" in the context of machine learning refer to:
+A. The correct labels used for evaluation.
+B. The actual output of a trained classification model.
+C. Vectors of attributes defining the input space, such as images or numerical scores.
+D. Functions that map inputs to discrete labels.
+
+Answer: C
+
+7. What is a "Candidate" in classification learning?
+A. The data used to test the model.
+B. A potential function that may match the target concept.
+C. The set of all possible mappings.
+D. The ideal function we aim to discover.
+
+Answer: B
+
+8. Which of the following is true about classification problems?
+A. They always map input to a continuous output.
+B. They involve predicting labels from a discrete set.
+C. They cannot handle numerical data.
+D. They are always more complex than regression problems.
+
+Answer: B
+
+9. In classification, the "Target Concept" is:
+A. Any concept that maps inputs to outputs.
+B. The function we hypothesize might be correct.
+C. The ideal mapping we aim to approximate.
+D. The set of all data instances used for testing.
+
+Answer: C
+
+10. Which of the following represents an example of classification?
+A. Predicting a stock price for the next day.
+B. Classifying a review as positive or negative based on text sentiment.
+C. Estimating the population of a city in the next decade.
+D. Predicting the total sales revenue for a product launch.
+
+Answer: B
