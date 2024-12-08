@@ -1,0 +1,126 @@
+OMSCS Q2 Decision Tree Exam Prep - Multiple Choice Questions
+Below are multiple-choice questions (MCQs) based on the concepts of Decision Trees, ID3 algorithm, entropy, biases, and other important topics related to the provided content.
+
+Question 1: Decision Trees - Basic Concept
+What is a decision tree in the context of machine learning?
+A) A database storage model
+B) A decision support tool using a tree-like structure for decisions and outcomes
+C) A type of neural network used for classification
+D) A linear regression model
+Answer: B
+
+Question 2: Representation of Decision Trees
+What are the key components of a decision tree?
+A) Attributes, edges, nodes, and leaves
+B) Decision nodes, edges, and outcomes at the leaves
+C) Input variables, conditional branches, and training samples
+D) Sample points, classification labels, and a decision model
+Answer: B
+
+Question 3: Logical Functions with Decision Trees
+Which logical operation is NOT commutative when implemented with decision trees?
+A) AND
+B) OR
+C) XOR
+D) Parity
+Answer: C
+
+Question 4: ID3 Algorithm - Main Idea
+What is the primary objective of the ID3 algorithm?
+A) To select the first attribute that minimizes the depth of the decision tree
+B) To compute entropy and choose the attribute that provides the greatest information gain
+C) To identify decision boundaries using clustering
+D) To create the simplest possible decision tree without data splits
+Answer: B
+
+Question 5: Calculating Information Gain
+The formula for information gain is given by:
+Information Gain(S,A)=Entropy(S)−∑v∣Sv∣∣S∣Entropy(Sv)\text{Information Gain}(S, A) = \text{Entropy}(S) - \sum_v \frac{|S_v|}{|S|} \text{Entropy}(S_v)Information Gain(S,A)=Entropy(S)−v∑​∣S∣∣Sv​∣​Entropy(Sv​)
+What does ∣Sv∣|S_v|∣Sv​∣ represent?
+A) Total number of data splits
+B) Subset of data where the attribute AAA takes the value vvv
+C) The entropy of all parent nodes
+D) Probabilities associated with attributes
+Answer: B
+
+Question 6: Bias Types
+Which of the following defines Preference Bias in decision trees?
+A) Decision trees prioritize splits on attributes that lead to faster classification rather than optimal splits
+B) Decision trees prefer splits that maximize information gain at the top of the tree
+C) Decision trees only work with binary splits
+D) Decision trees stop splitting early without evaluating training samples
+Answer: B
+
+Question 7: Overfitting in Decision Trees
+How is overfitting typically handled in decision trees?
+A) By increasing the depth of the decision tree
+B) Through pruning techniques
+C) By using only training data without testing data
+D) By randomly adding more nodes to the tree
+Answer: B
+
+Question 8: Decision Tree Regression
+When adapting a decision tree for regression problems instead of classification, how is the decision tree modified?
+A) Decision nodes now output a class label
+B) Decision nodes calculate weighted averages rather than discrete decisions
+C) Decision splits are ignored in regression problems
+D) Decision trees can only be used for classification problems
+Answer: B
+
+Question 9: Handling Continuous Variables
+When working with continuous variables, what is one way to adapt them for decision trees?
+A) Discard continuous variables entirely
+B) Bucket continuous values into discrete ranges for splitting
+C) Create a separate decision tree for every unique value
+D) Only test continuous variables at the leaf nodes without splitting
+Answer: B
+
+Question 10: Decision Tree Stopping Criteria
+Which of the following is NOT a stopping condition for a decision tree?
+A) All examples have been classified
+B) There are no more attributes left to split on
+C) Noise in the data causes data splits to reduce entropy
+D) The decision tree has reached a predefined maximum depth
+Answer: C
+
+Question 11: Complexity of XOR Decision Trees
+How does the complexity of implementing XOR decision trees scale with the number of attributes?
+A) O(n)O(n)O(n)
+B) O(nlog⁡n)O(n \log n)O(nlogn)
+C) O(2n)O(2^n)O(2n)
+D) O(n2)O(n^2)O(n2)
+Answer: C
+
+Question 12: Understanding Entropy
+Entropy is defined as:
+Entropy(p)=∑vp(v)log⁡p(v)\text{Entropy}(p) = \sum_v p(v) \log p(v)Entropy(p)=v∑​p(v)logp(v)
+What does entropy measure in the context of decision trees?
+A) How well decision splits minimize sample space
+B) The average number of binary splits required to classify an attribute
+C) The impurity or randomness of the dataset split
+D) The probability of a single event's occurrence
+Answer: C
+
+Question 13: Generalization - Sample Space Growth
+What happens to the number of nodes in a decision tree as the number of attributes increases?
+A) It follows a linear relationship with attributes
+B) It exhibits exponential growth
+C) It follows a quadratic relationship
+D) It remains constant regardless of attributes
+Answer: B
+
+Question 14: Adjustments to Model Decision Bias
+Why might repeated use of values in decision tree paths not make sense in certain situations?
+A) Because they may add no additional information when splitting discrete attributes
+B) Because they increase overfitting unnecessarily
+C) Because they lead to computational inefficiency with binary splits
+D) All of the above
+Answer: A
+
+Question 15: Dataset Noise and Splitting
+When noise is present in the dataset, how does this impact decision tree splitting?
+A) It has no effect on splits
+B) It can lead to incorrect splits, as information gain may be misrepresented
+C) It reduces the complexity of splits by creating fewer decision nodes
+D) It only affects the pruning process without impacting entropy
+Answer: B
