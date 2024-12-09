@@ -1,7 +1,7 @@
 Think of a perceptron like a student learning a new game. It makes a guess, but if it’s wrong, it learns from its mistake.
 
 ŷ = the guess the perceptron makes.
-y = the correct answer it should have made.
+y = the correct answer it should have made. x
 The difference between the guess and the correct answer is called error.
 The perceptron adjusts its weights (like its "strategy") using this error to try to guess better next time.
 
@@ -16,3 +16,18 @@ Your first throw misses.
 You learn a bit from your mistake and adjust your aim (weights).
 Your next throw is better because you adjusted your strategy using feedback (error).
 So, the perceptron learning rule is just like learning from mistakes by making small adjustments over time to improve! 🏆
+
+
+Perceptron Learning Rule (for Neural Networks in Short):
+A perceptron learns by comparing its guess (predicted output) to the actual answer.
+
+It calculates the error (difference between guess and real answer).
+Using a small learning rate, it adjusts its weights to make its next guess closer to the actual answer.
+This helps the neural network learn over time by fixing mistakes step-by-step.
+Think of it as learning from trial and error by making tiny changes to improve each time! 🎯
+
+
+
+
+
+
