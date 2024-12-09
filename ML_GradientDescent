@@ -1,0 +1,109 @@
+Gradient descent is like climbing down a hill to find the lowest point (where the error is smallest).
+
+Start at a random spot on the hill (random weights).
+Look around to see which way goes down the steepest (calculate the gradient).
+Take a small step in that direction (adjust the weights).
+Keep repeating until you can’t go any lower (error is minimized).
+It helps machines learn the best "rules" to make better guesses, even when the data is tricky! 
+
+Gradient Descent Example in ML for a Kid:
+Imagine you’re trying to guess the perfect temperature for baking cookies.
+
+Start with a Random Guess:
+
+You set the oven to 500°F. Too hot! Your cookies burn (big error).
+Check How Wrong You Are (Error):
+
+You taste the cookies and realize they’re burnt, so you need to lower the temperature.
+Take a Small Step (Adjust):
+
+You reduce the temperature to 450°F. Still too hot, but closer to perfect!
+Keep Improving:
+
+You lower it to 400°F. Now the cookies are golden brown—perfect!
+What Happened:
+The temperature is like the weights in ML.
+The error (burnt or raw cookies) tells you if you need to adjust.
+Gradient descent helps you take small steps toward the best temperature for delicious cookies, just like it helps a machine find the best weights to make accurate predictions! 🍪
+
+Here are some multiple-choice questions (MCQs) related to Gradient Descent, Perceptrons, and Neural Networks to help you prepare for CS7641:
+
+1. What is the primary goal of gradient descent in machine learning?
+A. Maximize the output of the model
+B. Minimize the error or loss function
+C. Ensure weights remain constant
+D. Find the maximum error in the dataset
+
+Answer: B. Minimize the error or loss function
+
+2. Which of the following statements about the perceptron learning rule is true?
+A. It works only with non-linearly separable data.
+B. It uses gradient descent to optimize weights.
+C. It works only with linearly separable data.
+D. It applies sigmoid activation by default.
+
+Answer: C. It works only with linearly separable data.
+
+3. What does the learning rate (η) control in gradient descent?
+A. The total number of iterations
+B. The size of the steps taken to adjust weights
+C. The final prediction accuracy
+D. The activation function applied
+
+Answer: B. The size of the steps taken to adjust weights
+
+4. Why is gradient descent preferred over the perceptron learning rule?
+A. It works only for binary classification problems.
+B. It is faster and requires fewer iterations.
+C. It works with non-linearly separable data.
+D. It avoids the need for activation functions.
+
+Answer: C. It works with non-linearly separable data.
+
+5. What does the gradient represent in gradient descent?
+A. The direction of the steepest increase in the loss function
+B. The direction of the steepest decrease in the loss function
+C. The average of all feature weights
+D. The total number of errors in the model
+
+Answer: B. The direction of the steepest decrease in the loss function
+
+6. Which of these is NOT an activation function?
+A. Step function
+B. Sigmoid function
+C. ReLU function
+D. Gradient function
+
+Answer: D. Gradient function
+
+7. In the context of gradient descent, what happens if the learning rate is set too high?
+A. The model converges quickly and accurately.
+B. The model may oscillate or fail to converge.
+C. The error will become zero immediately.
+D. The gradient calculation becomes unnecessary.
+
+Answer: B. The model may oscillate or fail to converge.
+
+8. What is the stopping criterion for gradient descent?
+A. When the gradient reaches its maximum value
+B. When the learning rate becomes zero
+C. When the loss/error function cannot be reduced further
+D. When the weights reach their maximum value
+
+Answer: C. When the loss/error function cannot be reduced further
+
+9. What kind of decision boundary does a perceptron produce?
+A. Linear decision boundary
+B. Non-linear decision boundary
+C. Circular decision boundary
+D. Random decision boundary
+
+Answer: A. Linear decision boundary
+
+10. Which of the following types of data cannot be separated by a single-layer perceptron?
+A. Linearly separable data
+B. Data requiring a hyperplane for separation
+C. XOR logic problem
+D. Binary classification data
+
+Answer: C. XOR logic problem
