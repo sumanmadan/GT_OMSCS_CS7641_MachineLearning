@@ -1,0 +1,19 @@
+Gradient vs perceptron
+
+Perceptron Rule:
+
+Formula: Δwi = η(y - ŷ)xi
+It adjusts weights until it finds the perfect straight line to separate two groups (if possible).
+Works only if data can be separated with a straight line (linearly separable).
+Example: Sorting apples and oranges perfectly.
+
+Gradient Rule:
+
+Formula: Δwi = η(y - a)xi
+It adjusts weights gradually to minimize mistakes, even if data isn't perfectly separable.
+Robust but might settle for a "good enough" solution (local optimum).
+Example: Guessing the best oven temperature for cookies even if some are slightly overcooked.
+
+Key Difference:
+Perceptron: Guarantees a perfect solution for simple, separable problems.
+Gradient: Works for complex problems but may not be perfect.
