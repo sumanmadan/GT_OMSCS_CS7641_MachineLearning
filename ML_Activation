@@ -1,0 +1,32 @@
+
+
+What is an Activation Function?
+An activation function is like a decision-making rule inside a neural network. It decides if a signal should pass through a neuron or not, or how much of it should pass through.
+
+ReLU (max(0, x)) Example:
+Imagine predicting someone's age. We can’t have negative ages, right? ReLU checks if a number is positive:
+
+If it's positive, it stays the same.
+If it's negative, it becomes 0.
+Example:
+
+Input = -5 → Output = 0
+Input = 4 → Output = 4
+Other Activation Functions:
+Linear:
+
+Just keeps the input as it is. Simple, but not great for complex problems.
+Example: Predicting a simple straight-line relationship.
+Sigmoid:
+
+Transforms numbers between 0 and 1.
+Example: Predicting probabilities, like “Will it rain? Yes/No”
+Tanh:
+
+Transforms numbers between -1 and 1.
+Better at handling some problems than sigmoid.
+Problems with Sigmoid & Tanh:
+They struggle as networks get deeper because the change becomes very small (vanishing gradient problem). This makes learning very slow or even stops the network from learning.
+
+Key Idea:
+Activation functions help neural networks learn by deciding which signals should pass through and how they should transform during training. 
