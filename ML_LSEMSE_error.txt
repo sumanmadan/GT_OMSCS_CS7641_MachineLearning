@@ -13,7 +13,8 @@ MSE: Average error (LSE divided by the number of data points).
 Both are tools to help measure how good (or bad) a model is at predicting outcomes!
 
 
-Calculating error is essential in machine learning and data science because it tells us how well a model is performing. Without knowing the error, we can’t tell if our model is good, bad, or improving. Let’s explore why calculating error is important:
+Calculating error is essential in machine learning and data science because it tells us how well a model is performing. 
+Without knowing the error, we can’t tell if our model is good, bad, or improving. Let’s explore why calculating error is important:
 
 1. Measures Accuracy
 Error shows how far off our predictions are from the actual values.
