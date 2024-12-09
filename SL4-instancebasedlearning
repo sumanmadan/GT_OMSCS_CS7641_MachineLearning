@@ -1,0 +1,195 @@
+
+Imagine you have a box of toy cars. Each toy car represents an example or "instance" you've seen before. When you see a new toy car, 
+you compare it to the cars in your box to decide which one is most similar to it.
+
+Example:
+You have toy cars of different colors and sizes. If a new toy car comes in, you look at the toy cars in your box and find the one that's most similar to it (like color or size).
+If it looks like a red, small car you already have in your box, you decide it's probably like that one.
+
+Why it's called "Instance Based Learning":
+You are learning by remembering past cars (instances) and comparing a new car to the ones you remember to make a decision. 
+You don’t create a strict rule about all cars but only look at similar examples you’ve seen before.
+
+Drawbacks:
+Too Many Comparisons: If you have thousands of toy cars in your box, comparing each one to a new car takes a lot of time.
+Overfitting: If you try to fit every single new toy car to a very specific one you remember, you might make mistakes for new toy cars you’ve never seen before.
+No General Rules: You don't create a general rule for all toy cars, just comparisons based on memory.
+So, it's like using your memory to solve problems instead of creating fixed rules for every situation
+
+
+Another Example: KNN with Friends at the Park
+Imagine you are at the park and want to decide if a new kid playing nearby likes soccer or basketball. You don’t know this new kid, but you can ask your friends at the park for clues.
+
+Here’s how you’d use KNN:
+
+Data of Your Friends
+You have a list of your friends and what they like:
+
+Friend Location (x, y)	Likes Soccer or Basketball?
+(1, 6)	Soccer
+(2, 4)	Soccer
+(3, 7)	Basketball
+(6, 8)	Basketball
+(7, 1)	Basketball
+(8, 4)	Soccer
+Here:
+
+The coordinates represent their location in the park.
+The categories represent what they like (Soccer or Basketball).
+New Kid (Query Point)
+You meet a new kid at point (4, 3) and you want to decide if they like Soccer or Basketball based on the preferences of nearby friends.
+
+Step 1: Calculate Distances
+You calculate the distance of the new kid at (4, 3) to all your friends:
+
+Using Manhattan Distance:
+Manhattan Distance = |x1 - x2| + |y1 - y2|
+
+Distance to (1, 6) = |4-1| + |3-6| = 3 + 3 = 6
+Distance to (2, 4) = |4-2| + |3-4| = 2 + 1 = 3
+Distance to (3, 7) = |4-3| + |3-7| = 1 + 4 = 5
+Distance to (6, 8) = |4-6| + |3-8| = 2 + 5 = 7
+Distance to (7, 1) = |4-7| + |3-1| = 3 + 2 = 5
+Distance to (8, 4) = |4-8| + |3-4| = 4 + 1 = 5
+Step 2: Find the 3 Nearest Friends (K=3)
+Looking at the calculated distances:
+
+3 nearest distances are 3, 5, 5
+Corresponding to the points:
+
+(2,4) = Soccer
+(3,7) = Basketball
+(7,1) = Basketball
+Step 3: Classification
+Now count how many of these K=3 neighbors like Soccer vs. Basketball:
+
+2 neighbors like Basketball
+1 neighbor likes Soccer
+So, the majority vote says the new kid is likely to like Basketball.
+
+Final Decision:
+Based on KNN with K=3, you predict that the new kid at (4,3) likes Basketball.
+
+Lesson from Example:
+KNN helps decide based on similar nearby friends rather than strict fixed rules. It’s like a voting system based on distances!
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Explanation of K-Nearest Neighbour (KNN) Pseudo Code
+KNN is a simple algorithm that works by finding the K closest data points (neighbors) to a new data point and then making a decision based on these neighbors.
+
+Steps in the Pseudo Code
+Input Information:
+Training Data (D): This is your existing data with features 
+𝑥
+𝑖
+x 
+i
+​
+  (inputs) and 
+𝑦
+𝑖
+y 
+i
+​
+  (outputs or labels). For example, 
+𝑥
+𝑖
+x 
+i
+​
+  could be measurements like height and weight, and 
+𝑦
+𝑖
+y 
+i
+​
+  could be the class (e.g., cat or dog) or a number (e.g., price of a house).
+Distance Metric (d): A formula to calculate how "close" or "far" two points are. Examples include:
+Euclidean distance (straight line)
+Manhattan distance (grid-like path)
+K (number of neighbors): How many closest points you want to consider.
+Query Point (q): The new data point you want to classify or predict.
+Find the K Nearest Neighbors:
+For the query point 
+𝑞
+q, calculate the distance 
+𝑑
+(
+𝑞
+,
+𝑥
+𝑖
+)
+d(q,x 
+i
+​
+ ) for all points in the training data 
+𝐷
+D.
+Sort the distances and pick the K smallest ones.
+These are your K-nearest neighbors (
+𝑘
+𝑁
+𝑁
+kNN).
+Decision Making (Output):
+For Classification:
+Look at the labels (
+𝑦
+𝑖
+y 
+i
+​
+ ) of the K neighbors. Use a vote to decide the label of 
+𝑞
+q.
+Example: If 2 neighbors are "cat" and 1 is "dog," the new point is classified as "cat" (majority vote).
+
+For Regression:
+Look at the values (
+𝑦
+𝑖
+y 
+i
+​
+ ) of the K neighbors. Take the mean (average) or median (middle value) of these neighbors' values to predict 
+𝑞
+q.
+Example: If the neighbors have prices of 
+300
+𝑘
+,
+310
+𝑘
+,
+320
+𝑘
+300k,310k,320k, the predicted price for 
+𝑞
+q is 
+310
+𝑘
+310k (average).
+
+Summary:
+KNN uses similarity (distance) to make decisions.
+K determines how many neighbors influence the decision.
+It works for both classification (voting) and regression (averaging).
+This algorithm is simple but effective, relying entirely on the training data and the chosen distance metric.
+
+
+
+Bias is an assumption or belief that helps an algorithm make decisions or predictions. It guides the learning process by influencing how the algorithm interprets data and creates models. Bias simplifies complex problems but may lead to errors if the assumptions are wrong.
+
+Types of Bias:
+Preference Bias:
+
+The algorithm’s built-in assumptions about what a good solution should look like.
+Example: In KNN, the belief that "closer points are more similar" is a preference bias.
+Error Bias (in Machine Learning):
+
+Systematic errors made by a model because of oversimplified assumptions.
+Example: A linear model might struggle with data that requires a curve to fit properly.
