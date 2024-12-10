@@ -1,0 +1,13 @@
+To understand why bagging reduces variance at the cost of bias, let’s break it down simply:
+
+Variance means how much a model’s predictions change if we train it on different datasets.
+
+Models like decision trees can be very sensitive (high variance) because small changes in the data can lead to very different results.
+Bagging creates multiple trees with different subsets of the data and combines their results (like voting). This averaging smooths out the differences, reducing variance.
+Bias means how far the model’s predictions are from the true values on average.
+
+By averaging many models, bagging simplifies the overall prediction slightly, which can introduce a small error (bias).
+For example, if each tree slightly overfits (follows the data too closely), averaging them might make the final result less overfitted but also less perfect.
+Short Answer for a Kid:
+Bagging is like asking a group of friends for their guesses and averaging them. It makes the guesses more stable (reduces variance), but because it blends their answers, 
+it might not be perfectly right every time (adds a little bias).
