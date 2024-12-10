@@ -1,0 +1,16 @@
+Random Forest
+http://edithlaw.ca/teaching/cs480/w19/lectures/11-ensemble.pdf
+
+Decision trees can be computationally expensive to train making them less than ideal for larger ensembles. 
+The alternative is to use a tree with a fixed structure and random features.
+A collection of such trees is called a random forest. 
+This improves upon the bagging by reducing the correlation between sampled trees, and taking their average.
+
+Random forests or random decision forests are an ensemble learning method for classification, regression 
+and other tasks that operates by constructing a multitude of decision trees at training time. 
+For classification tasks, the output of the random forest is the class selected by most trees. 
+For regression tasks, the mean or average prediction of the individual trees is returned. 
+Random decision forests correct for decision trees' habit of overfitting to their training set. 
+Random forests generally outperform decision trees, but their accuracy is lower than gradient boosted trees.
+
+from Wikipedia - https://en.wikipedia.org/wiki/Random_forest
