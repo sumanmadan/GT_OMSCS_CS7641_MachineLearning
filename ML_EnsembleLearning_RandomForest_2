@@ -1,0 +1,19 @@
+Very reliable method for both classification and regression.
+The smaller m is, the more randomized the trees are; small m is best, especially with large levels of noise. Small nmin means less bias and more 
+
+variance, but variance is controlled by averaging over trees.
+
+Works well when all the features are at least marginally relevant
+
+Intuitively, it works well because
+some of the trees will query on useless features and make random predictions.
+but some will happen to query on good features and will make good predictions.
+If there is enough trees, the random ones will wash out as noise, and only good trees will have an effect on the final classification.
+
+magine you're trying to figure out if a fruit is an apple or an orange. You ask a group of friends (trees) to help you decide. Each friend looks at different parts of the fruit, like color, size, or shape.
+
+Small m means each friend looks at a smaller, random part of the fruit, like just color or just size. If some friends look at less useful things, like shape, their guesses might be random. But, because you have many friends, their mistakes get washed out, and the majority of friends who focus on the right things (like color or size) help make the best decision.
+
+Small nmin means each friend might not look at as many things, which can make their guesses a little more varied. But again, since you have many friends, the wrong guesses don’t affect the final decision much.
+
+So, even if some trees are looking at silly things, the majority that are focusing on the important parts will give you the right answer!
