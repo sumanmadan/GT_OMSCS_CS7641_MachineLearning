@@ -17,8 +17,24 @@ Imagine three friends looking at a messy handwriting note.
 Friend 1 over-focuses on one part of the note and says, "It must say 'cat.'"
 Friend 2 over-focuses on another part and says, "No, it says 'car.'"
 Friend 3 has their own guess: "I think it says 'cut.'"
-Each friend overfits to different parts of the note. But when they vote, the majority agrees on "cat," which is closest to the correct answer. 
+Each friend overfits to different parts of the note. But when they vote, the majority agrees on "cat," 
+which is closest to the correct answer. 
 Bagging works like this—it balances out overfitting mistakes by combining guesses.
+
+Disadvantages:
+Loss of interpretability: After all bagged tree is no longer a tree
+Computationally expensive
+Stable learners, such as Knn, typically aren't affected much
+Pitfalls:
+If the error rate for a single learner exceeds 0.5 - STOP
+A bagged classifier composed of bad learners only gets worse!!
+-----------
+A 3rd order polynomial learner is like drawing a smooth curve that bends in different ways, not just straight lines. 
+Imagine a wiggly path that goes up, down, and then up again. It’s like trying to fit a curve through some points on a graph, 
+but the curve has three parts of the shape (that’s why it’s called “3rd order”).
+
+The 3rd order means the curve can have up to three bends (like going up, then down, then up again) to better match the points we have. 
+This curve helps us predict where other points might be based on the ones we know!
 
 
 
