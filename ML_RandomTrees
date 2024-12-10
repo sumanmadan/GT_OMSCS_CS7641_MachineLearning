@@ -1,0 +1,5 @@
+Extremely Randomized Trees are like a more carefree version of Random Forests. At each step:
+
+They pick a random set of clues (features).
+They also pick random ways to split the data.
+By combining guesses from many trees, the final decision is still smart because the randomness helps avoid overfitting.
