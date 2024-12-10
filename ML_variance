@@ -1,0 +1,6 @@
+Imagine you’re guessing how many candies are in a jar. If one friend guesses, their answer might be way off (high variance). 
+But if you ask a group of friends and take the average of their guesses, the result will usually be much closer to the actual number. 
+This is how a random forest works—it combines many “wild guesses” (trees with high variance) to make a much better overall guess (lower variance).
+
+However, if there’s a lot of useless information (like asking about the jar’s color when it doesn’t matter),
+the random forest can still mess up (overfitting) because it gets distracted by unimportant details.
