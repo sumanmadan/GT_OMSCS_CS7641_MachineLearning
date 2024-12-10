@@ -1,0 +1,79 @@
+1. What is the primary objective of an SVM?
+a) Minimize the number of support vectors
+b) Maximize the margin between classes
+c) Minimize the distance of points from the hyperplane
+d) Maximize the number of features
+
+Answer: b) Maximize the margin between classes
+
+2. What are support vectors in SVM?
+a) Data points farthest from the hyperplane
+b) Data points closest to the hyperplane
+c) All data points in the dataset
+d) Data points classified with 100% accuracy
+
+Answer: b) Data points closest to the hyperplane
+
+3. Which of the following is true about the kernel trick in SVM?
+a) It reduces the size of the dataset
+b) It maps the data into a higher-dimensional space
+c) It decreases training time for large datasets
+d) It eliminates noisy data
+
+Answer: b) It maps the data into a higher-dimensional space
+
+4. Why is SVM effective in high-dimensional spaces?
+a) It uses fewer features for classification
+b) It minimizes the computation for large datasets
+c) It performs well when dimensions are greater than samples
+d) It eliminates noisy data automatically
+
+Answer: c) It performs well when dimensions are greater than samples
+
+5. What is the main disadvantage of SVM with large datasets?
+a) Poor accuracy
+b) High training time
+c) Inability to handle categorical data
+d) Poor visualization
+
+Answer: b) High training time
+
+6. In SVM, what does the kernel function do?
+a) Identifies support vectors directly
+b) Reduces the dataset size
+c) Computes the similarity between data points
+d) Increases the number of support vectors
+
+Answer: c) Computes the similarity between data points
+
+7. Which of the following is NOT a common kernel function in SVM?
+a) Linear kernel
+b) Polynomial kernel
+c) RBF (Radial Basis Function) kernel
+d) Gradient descent kernel
+
+Answer: d) Gradient descent kernel
+
+8. What happens when the target classes overlap significantly in SVM?
+a) It increases accuracy
+b) The model struggles to generalize
+c) It reduces the computational time
+d) Support vectors are ignored
+
+Answer: b) The model struggles to generalize
+
+9. What kind of optimization problem does SVM solve?
+a) Linear programming
+b) Quadratic programming
+c) Dynamic programming
+d) Gradient descent
+
+Answer: b) Quadratic programming
+
+10. What is the role of the regularization parameter (C) in SVM?
+a) It controls the trade-off between margin size and classification error
+b) It determines the kernel function to use
+c) It decides the number of support vectors
+d) It fixes the computational time
+
+Answer: a) It controls the trade-off between margin size and classification error
