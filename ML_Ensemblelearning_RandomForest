@@ -14,3 +14,20 @@ Random decision forests correct for decision trees' habit of overfitting to thei
 Random forests generally outperform decision trees, but their accuracy is lower than gradient boosted trees.
 
 from Wikipedia - https://en.wikipedia.org/wiki/Random_forest
+
+
+Imagine you're trying to decide what kind of ice cream to buy, but you're not sure whether to choose chocolate, vanilla, or strawberry. 
+So, you ask a group of friends for their opinions. Each friend has their own way of deciding, maybe some like chocolate best, 
+some like vanilla, and some like strawberry.
+
+A Random Forest is like asking a big group of decision-making friends (called trees) to help you decide.
+Each tree looks at different information and votes for an answer. Then, you listen to the majority of the trees to make the final decision.
+
+Each tree in the forest makes a prediction based on a random part of the data, and by combining all the trees' votes, 
+the decision is much better and more reliable than just asking one friend.
+
+Yes! In a Random Forest, each tree has a fixed structure but random features. Here's how it works:
+
+Fixed structure: Each tree follows the same basic rules for making decisions, like splitting the data into smaller parts based on questions.
+Random features: For each tree, only a random set of features (or information) is used to make those decisions. This makes each tree a bit different from the others.
+By having many trees that make decisions based on random parts of the data, the forest can make smarter, more accurate predictions overall!
