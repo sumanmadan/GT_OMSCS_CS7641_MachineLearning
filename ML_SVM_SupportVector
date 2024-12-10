@@ -32,6 +32,16 @@ even if new marbles (data) are added later.
 That's why the primary objective of an SVM is to maximize the margin between classes!
 
 
+
+scikit-learn: https://scikit-learn.org/stable/modules/svm.html#kernel-functions
+Has 4 built in kernel functions
+
+Linear ( K(x, xi) = sum(x * xi) )
+Polynomial ( K(x,xi) = 1 + sum(x * xi)^d )
+RBF - Radial Basis Function ( K(x,xi) = exp(-gamma * sum((x – xi^2)) )
+Sigmoid (tanh)
+
+
 VM solves a quadratic programming problem because it’s all about balancing two things:
 
 Maximizing the margin (space between the dividing line and the closest points).
