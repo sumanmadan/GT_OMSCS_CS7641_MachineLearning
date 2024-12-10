@@ -36,6 +36,17 @@ but the curve has three parts of the shape (that’s why it’s called “3rd or
 The 3rd order means the curve can have up to three bends (like going up, then down, then up again) to better match the points we have. 
 This curve helps us predict where other points might be based on the ones we know!
 
+Let’s say you have data about the number of hours studied and the test scores, like this:
+
+(1 hour, 50 score)
+(2 hours, 60 score)
+(3 hours, 70 score)
+A 3rd order polynomial learner would try to draw a smooth curve through these points that might go up, level off, 
+and then go up again to best fit the pattern of how study time affects the score. 
+If you take different random subsets of this data, the learner will draw different curves for each subset.
+When you combine all these curves by averaging them, 
+you get a more reliable prediction of how study time affects scores.
+
 
 
 
