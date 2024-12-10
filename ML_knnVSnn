@@ -1,0 +1,13 @@
+K-Nearest Neighbors (KNN):
+How it works: KNN finds the closest "neighbors" to a new data point and decides its category (or value) based on those neighbors. It’s like asking nearby friends for advice.
+Training: No real training! It just stores the data and works at prediction time.
+Speed: Slow for predictions because it checks all the data to find neighbors.
+Use cases: Works well for small datasets and simple problems.
+Neural Networks (NN):
+How it works: NN mimics how the brain works. It processes data through layers of "neurons" that learn patterns and relationships by adjusting weights.
+Training: Involves heavy training using algorithms like gradient descent.
+Speed: Training is slow, but predictions are fast once trained.
+Use cases: Good for complex problems like image recognition, natural language processing, and large datasets.
+Summary for Kids:
+KNN: Like picking the best answer by asking your closest friends.
+NN: Like a brain solving a problem after practicing a lot!
