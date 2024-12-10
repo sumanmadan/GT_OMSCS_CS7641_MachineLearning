@@ -26,9 +26,17 @@ The goal of an SVM (Support Vector Machine) is to find the "best divider" betwee
 Imagine you’re sorting red and blue marbles on a table, and you want to place a ruler between them so that the red and blue marbles are as far away from the ruler as possible.
 
 This "ruler" is called the hyperplane, and the space between the hyperplane and the nearest marbles is called the margin. 
-SVM tries to make this margin as wide as possible to ensure the groups are clearly separated. A wide margin means the SVM is confident about its division, even if new marbles (data) are added later.
+SVM tries to make this margin as wide as possible to ensure the groups are clearly separated. A wide margin means the SVM is confident about its division, 
+even if new marbles (data) are added later.
 
 That's why the primary objective of an SVM is to maximize the margin between classes!
+
+
+VM solves a quadratic programming problem because it’s all about balancing two things:
+
+Maximizing the margin (space between the dividing line and the closest points).
+Minimizing errors for points that are on the wrong side of the line.
+This balancing creates a problem where the math involves squares (like squaring distances), which is why it’s called quadratic.
 
 
 
