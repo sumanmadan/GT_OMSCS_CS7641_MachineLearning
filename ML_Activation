@@ -1,7 +1,8 @@
 
 
 What is an Activation Function?
-An activation function is like a decision-making rule inside a neural network. It decides if a signal should pass through a neuron or not, or how much of it should pass through.
+An activation function is like a decision-making rule inside a neural network. 
+It decides if a signal should pass through a neuron or not, or how much of it should pass through.
 
 ReLU (max(0, x)) Example:
 Imagine predicting someone's age. We can’t have negative ages, right? ReLU checks if a number is positive:
