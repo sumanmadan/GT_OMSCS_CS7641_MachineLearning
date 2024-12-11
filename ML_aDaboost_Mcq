@@ -1,0 +1,105 @@
+Boosting MCQs
+What is the main goal of Boosting?
+a) To reduce the size of the dataset
+b) To combine multiple weak learners into a strong learner
+c) To improve computational speed
+d) To handle missing data effectively
+Answer: b) To combine multiple weak learners into a strong learner
+
+What does Boosting focus on during training?
+a) Random subsets of the data
+b) Easy-to-classify examples
+c) Hard-to-classify examples
+d) Noise in the data
+Answer: c) Hard-to-classify examples
+
+Which of the following is NOT a characteristic of Boosting?
+a) Runs in polynomial time
+b) Requires many hyperparameters
+c) Automatically adapts to the data
+d) Combines weak learners sequentially
+Answer: b) Requires many hyperparameters
+
+What happens to misclassified examples in Boosting?
+a) They are ignored
+b) Their weight is increased for the next learner
+c) They are removed from the dataset
+d) Their weight is decreased for the next learner
+Answer: b) Their weight is increased for the next learner
+
+AdaBoost MCQs
+What type of learners does AdaBoost use?
+a) Strong learners
+b) Deep neural networks
+c) Weak learners
+d) Unsupervised models
+Answer: c) Weak learners
+
+In AdaBoost, how are the weak learners combined?
+a) By averaging their predictions
+b) By taking a majority vote
+c) By assigning weights to their predictions
+d) By selecting the best-performing model
+Answer: c) By assigning weights to their predictions
+
+What happens to the weights of correctly classified examples in AdaBoost?
+a) Their weights remain the same
+b) Their weights are increased
+c) Their weights are decreased
+d) Their weights are doubled
+Answer: c) Their weights are decreased
+
+Which of the following is true about AdaBoost?
+a) It only works with linear data
+b) It requires many hyperparameters
+c) It focuses on misclassified examples
+d) It creates models independently
+Answer: c) It focuses on misclassified examples
+
+What is the stopping criterion for AdaBoost?
+a) When all data points are correctly classified
+b) After a fixed number of iterations
+c) When the error rate exceeds 0.5
+d) All of the above
+Answer: d) All of the above
+
+Which of the following is a drawback of AdaBoost?
+a) It requires a lot of hyperparameters
+b) It is sensitive to noisy data and outliers
+c) It cannot handle large datasets
+d) It always converges to a local minimum
+Answer: b) It is sensitive to noisy data and outliers
+
+-------------
+
+
+The answer is b) It is sensitive to noisy data and outliers because:
+
+Focus on Misclassified Examples:
+AdaBoost gives higher weights to misclassified examples in each iteration to improve the model's accuracy. 
+However, if the dataset contains noise or outliers, these incorrectly labeled or extreme points will receive more attention. 
+This causes the model to overfit by trying too hard to correctly classify those noisy or irrelevant data points.
+
+No Built-In Noise Handling:
+Unlike some algorithms, AdaBoost does not have mechanisms to differentiate between genuine misclassifications and noise/outliers in the data, 
+which can lead to suboptimal generalization.
+
+Why not the other options?
+a) It requires a lot of hyperparameters:
+AdaBoost has relatively few hyperparameters, making it simpler to use compared to other models like neural networks.
+
+c) It cannot handle large datasets:
+AdaBoost can handle large datasets, although computational efficiency depends on the complexity of the weak learners.
+
+d) It always converges to a local minimum:
+AdaBoost is not an optimization algorithm in the same sense as gradient descent; it sequentially builds and combines weak learners, 
+so this is irrelevant.
+
+Example:
+If your dataset includes a few mislabeled data points (e.g., a blue circle mislabeled as red), 
+AdaBoost might put too much emphasis on these points, skewing the final model.
+
+
+
+
+
