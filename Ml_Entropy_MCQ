@@ -1,0 +1,71 @@
+ere are Multiple-Choice Questions (MCQs) specifically related to Entropy:
+
+1. What does entropy measure in information theory?
+a) The total amount of information in a dataset.
+b) The amount of randomness or disorder in a system.
+c) The average value of a set of data points.
+d) The distance between two data points.
+Answer: b) The amount of randomness or disorder in a system.
+
+2. In the context of decision trees, what is the role of entropy?
+a) To measure the purity of a node.
+b) To calculate the cost function.
+c) To minimize the number of decision rules.
+d) To adjust the learning rate.
+Answer: a) To measure the purity of a node.
+
+3. Which of the following statements is true when entropy is zero?
+a) The data is perfectly disordered.
+b) The data is perfectly ordered or pure.
+c) The data is equally distributed across all classes.
+d) The entropy is undefined.
+Answer: b) The data is perfectly ordered or pure.
+
+4. Which entropy value indicates the maximum uncertainty in a system with two equally probable outcomes?
+a) 0
+b) 1
+c) 2
+d) Infinity
+Answer: b) 1
+
+5. What is the relationship between entropy and information gain in decision trees?
+a) Higher entropy leads to higher information gain.
+b) Lower entropy leads to higher information gain.
+c) Entropy and information gain are not related.
+d) Information gain is used to increase entropy.
+Answer: b) Lower entropy leads to higher information gain.
+
+6. Which of the following is an example of a system with high entropy?
+a) A deck of cards perfectly arranged by suit and rank.
+b) A set of data points with an equal distribution across all classes.
+c) A sorted list of numbers in increasing order.
+d) A perfectly aligned row of toys.
+Answer: b) A set of data points with an equal distribution across all classes.
+
+7. In a binary classification problem, if the classes are distributed equally (50-50), what is the entropy?
+a) 0
+b) 1
+c) 0.5
+d) 2
+Answer: b) 1
+
+8. Which of the following algorithms commonly uses entropy to determine the best feature for splitting data?
+a) K-Nearest Neighbors (k-NN)
+b) Support Vector Machine (SVM)
+c) Decision Tree
+d) Linear Regression
+Answer: c) Decision Tree
+
+9. What does it mean if the entropy of a dataset is low?
+a) The dataset is more random and disordered.
+b) The dataset is less informative.
+c) The dataset has high certainty and is more homogeneous.
+d) The dataset has high information gain.
+Answer: c) The dataset has high certainty and is more homogeneous.
+
+10. In the context of entropy, what is the main goal when constructing a decision tree?
+a) To maximize the entropy at each node.
+b) To minimize the entropy at each node.
+c) To maintain equal entropy at every level of the tree.
+d) To avoid splitting the dataset into smaller groups.
+Answer: b) To minimize the entropy at each node.
