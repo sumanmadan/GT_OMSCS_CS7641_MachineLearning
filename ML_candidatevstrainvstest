@@ -1,0 +1,8 @@
+Example: Picking the Best Ice Cream Flavor
+Imagine you are at an ice cream shop, and you're trying to decide which flavor is the best.
+
+Candidates: The shopkeeper gives you small scoops of different flavors to try: chocolate, vanilla, strawberry, and mint. Each of these flavors is a candidate for your "favorite ice cream flavor."
+
+Training: You take a bite of each flavor and think, Hmm, how much do I like this? You're trying to figure out which one is the best match for your taste.
+
+Testing: Once you pick your favorite flavor (let’s say chocolate), you buy a big scoop of it and eat it on your way home. This is you "
