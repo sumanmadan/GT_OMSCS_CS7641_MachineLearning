@@ -1,0 +1,10 @@
+
+Imagine you're jumping on a trampoline. When you jump up, the trampoline pushes you back down, 
+but if you're not jumping at all (just standing still), the trampoline doesn't push you down at all—it stays flat.
+
+Now, think of ReLU (Rectified Linear Unit) like that trampoline, but for numbers. 
+It helps computers understand how much "jump" to give. If the number is positive,
+ReLU lets it keep going, just like how the trampoline would push you up when you jump. If the number is negative or zero,
+ReLU just keeps it at zero, kind of like how the trampoline does nothing when you're standing still.
+
+In short: ReLU lets good things (positive numbers) go up and stops bad things (negative numbers) from going anywhere.
