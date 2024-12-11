@@ -27,7 +27,9 @@ Tanh:
 Transforms numbers between -1 and 1.
 Better at handling some problems than sigmoid.
 Problems with Sigmoid & Tanh:
-They struggle as networks get deeper because the change becomes very small (vanishing gradient problem). This makes learning very slow or even stops the network from learning.
+They struggle as networks get deeper because the change becomes very small (vanishing gradient problem). 
+This makes learning very slow or even stops the network from learning.
 
 Key Idea:
-Activation functions help neural networks learn by deciding which signals should pass through and how they should transform during training. 
+Activation functions help neural networks learn by deciding which signals should pass through
+and how they should transform during training. 
