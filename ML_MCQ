@@ -1,0 +1,71 @@
+1. Which of the following is a key assumption of linear regression?
+a) The features are independent and identically distributed.
+b) The relationship between the input variables and the target variable is linear.
+c) The target variable follows a normal distribution.
+d) All features must be binary.
+Answer: b) The relationship between the input variables and the target variable is linear.
+
+2. In k-Nearest Neighbors (k-NN), how is the value of 
+𝑘
+k typically chosen?
+a) It is set to the number of features.
+b) It is optimized using cross-validation.
+c) It must be an odd number to ensure balanced datasets.
+d) It is randomly selected.
+Answer: b) It is optimized using cross-validation.
+
+3. What is the purpose of the kernel trick in Support Vector Machines (SVM)?
+a) To reduce the size of the dataset.
+b) To compute dot products in a higher-dimensional space without explicitly transforming the data.
+c) To improve computational efficiency for large datasets.
+d) To ensure the model doesn't overfit.
+Answer: b) To compute dot products in a higher-dimensional space without explicitly transforming the data.
+
+4. Which of the following methods is used to prevent overfitting in decision trees?
+a) Increasing the depth of the tree.
+b) Using larger datasets.
+c) Pruning the tree.
+d) Adding more features to the dataset.
+Answer: c) Pruning the tree.
+
+5. What does the term "bias" represent in the context of machine learning models?
+a) The error due to oversimplification of the model.
+b) The sensitivity of the model to fluctuations in the training data.
+c) The error due to noise in the dataset.
+d) The difference between training and testing performance.
+Answer: a) The error due to oversimplification of the model.
+
+6. Which of the following evaluation metrics is most appropriate for imbalanced datasets?
+a) Accuracy
+b) Precision and Recall
+c) Mean Squared Error
+d) R-Squared
+Answer: b) Precision and Recall
+
+7. What is the primary goal of Principal Component Analysis (PCA)?
+a) To cluster data into different groups.
+b) To reduce the dimensionality of the dataset while retaining as much variance as possible.
+c) To improve model accuracy.
+d) To handle missing data.
+Answer: b) To reduce the dimensionality of the dataset while retaining as much variance as possible.
+
+8. What is the key difference between bagging and boosting?
+a) Bagging builds sequential models, while boosting builds models in parallel.
+b) Bagging reduces variance, while boosting reduces bias.
+c) Boosting cannot handle overfitting, but bagging can.
+d) Bagging uses weak learners, while boosting uses strong learners.
+Answer: b) Bagging reduces variance, while boosting reduces bias.
+
+9. What is the main idea behind the Gradient Descent algorithm?
+a) To iteratively increase the weights to maximize the loss function.
+b) To compute the gradient and move in the direction that increases the loss.
+c) To find the parameters that minimize the cost function by iteratively updating them in the direction of the negative gradient.
+d) To randomly select parameters until the optimal solution is found.
+Answer: c) To find the parameters that minimize the cost function by iteratively updating them in the direction of the negative gradient.
+
+10. Which of the following is true about unsupervised learning?
+a) It requires labeled data for training.
+b) It is used for classification tasks.
+c) Clustering and dimensionality reduction are examples of unsupervised learning.
+d) It performs better with balanced datasets.
+Answer: c) Clustering and dimensionality reduction are examples of unsupervised learning.
