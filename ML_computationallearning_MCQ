@@ -1,0 +1,73 @@
+Here are some multiple-choice questions (MCQs) to test your understanding of Computational Learning Theory:
+
+1. What is the goal of computational learning theory?
+A) To create the most complex algorithms possible
+B) To define learning problems, show that algorithms work, and prove that learning is fundamentally hard
+C) To reduce the number of samples needed for learning
+D) To design unsupervised learning algorithms
+
+2. What does the term "Inductive Learning" mean?
+A) Learning through trial and error
+B) Learning from examples or patterns
+C) Learning without any data
+D) Learning from mistakes
+
+3. What is a "classifier" in machine learning?
+A) A method to cluster data points
+B) A tool used to categorize or separate data into groups
+C) A type of neural network
+D) A performance evaluation metric
+
+4. In the context of inductive learning, what does 𝜖 represent?
+A) The complexity of the model
+B) The total number of examples used
+C) The accuracy of the model’s predictions
+D) The error or difference between predicted and actual outcomes
+
+5. What is the best strategy for a learner when asking questions in a 20 Questions-like game?
+A) Ask simple questions with yes/no answers
+B) Ask questions that reduce the possibilities by about half
+C) Ask as many questions as possible without worrying about the outcomes
+D) Ask questions that only confirm one possible answer
+
+6. In Computational Learning Theory, what is meant by Time and Space in the context of learning algorithms?
+A) Time is the number of examples, and space is the size of the data
+B) Time refers to how long an algorithm takes to learn, and space refers to the memory required
+C) Time is the number of queries made, and space is the number of mistakes
+D) Time and space have no relevance in learning
+
+7. What does a decision tree classifier typically do?
+A) It classifies data based on a probability distribution
+B) It makes predictions by splitting the dataset using a tree-like structure of decisions
+C) It uses a nearest neighbor approach to classify data
+D) It creates clusters based on data similarity
+
+8. Which of the following statements about Online Learning is true?
+A) It learns in batches using the entire dataset at once
+B) It learns step by step as data comes in, one example at a time
+C) It doesn’t require any training data
+D) It is slower than batch learning
+
+9. What does the log2|H| formula represent in the context of learning?
+A) The total error made by a classifier
+B) The time it takes for a learning algorithm to finish
+C) The complexity of the hypothesis class or the number of possible hypotheses
+D) The number of questions asked in a decision tree
+
+10. What happens if a learner has limited examples or data to train on?
+A) They will always make correct predictions
+B) They will need to ask fewer questions to achieve optimal learning
+C) Their ability to learn will be limited and might make mistakes
+D) The learning process will be faster
+
+Answers:
+B) To define learning problems, show that algorithms work, and prove that learning is fundamentally hard
+B) Learning from examples or patterns
+B) A tool used to categorize or separate data into groups
+D) The error or difference between predicted and actual outcomes
+B) Ask questions that reduce the possibilities by about half
+B) Time refers to how long an algorithm takes to learn, and space refers to the memory required
+B) It makes predictions by splitting the dataset using a tree-like structure of decisions
+B) It learns step by step as data comes in, one example at a time
+C) The complexity of the hypothesis class or the number of possible hypotheses
+C) Their ability to learn will be limited and might make mistakes
