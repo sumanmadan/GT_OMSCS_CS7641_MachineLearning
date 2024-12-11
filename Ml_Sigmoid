@@ -1,0 +1,10 @@
+Imagine you’re trying to decide if you want to go outside based on how cloudy it is. 
+If the sky is super clear, you’re really excited to go outside, but if it’s really cloudy, you just want to stay inside.
+
+Now, Sigmoid works like a special scale to decide how much you want to go outside, based on how cloudy the sky is.
+
+If the sky is clear (a really high number), Sigmoid turns that into a value close to 1, meaning “Yes, go outside!”
+If the sky is super cloudy (a really low number), Sigmoid turns that into a value close to 0, meaning “No, stay inside.”
+In between, if the sky is a little cloudy or a little clear, Sigmoid will give you a number somewhere in between 0 and 1, 
+helping you decide how much you want to go outside. 
+It helps to make things less extreme and more gradual!
