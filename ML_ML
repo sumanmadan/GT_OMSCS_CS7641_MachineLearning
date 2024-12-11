@@ -1,0 +1,40 @@
+Machine Learning (ML):
+ML is a branch of artificial intelligence where algorithms learn from data to 
+make predictions or decisions without explicit programming.
+
+Supervised Learning (SL)
+Definition: Learning from labeled data to make predictions.
+Goal: Predict output (labels) for new, unseen data.
+Types:
+Regression (predict continuous values):
+Linear Regression, Decision Tree Regression, Random Forest Regression
+Classification (categorize into classes):
+Logistic Regression, Decision Trees, Support Vector Machines (SVM), k-Nearest Neighbors (KNN), Random Forest
+Algorithms/Models:
+
+Linear Regression: Predict continuous values
+Logistic Regression: Predict binary outcomes (e.g., spam or not)
+SVM: Binary classification with optimal hyperplane
+KNN: Classifies based on nearest data points
+Decision Trees: Classification/regression with decision rules
+Random Forest: Ensemble of decision trees
+Unsupervised Learning (USL)
+Definition: Learning from unlabeled data to find hidden patterns.
+Goal: Discover structures or groupings in data without specific labels.
+Types:
+
+Clustering (group similar data points):
+K-means, Hierarchical Clustering, DBSCAN
+Dimensionality Reduction (reduce features):
+PCA (Principal Component Analysis), t-SNE
+Algorithms/Models:
+
+K-means: Groups data into k clusters
+DBSCAN: Density-based clustering
+PCA: Reduces data dimensions, preserving variance
+t-SNE: Reduces dimensions for visualization
+Summary Cheat Sheet:
+Type	Goal	Algorithms/Models
+SL (Supervised)	Predict labels (classification/regression)	Linear Regression, Logistic Regression, SVM, KNN, Decision Trees, Random Forest
+USL (Unsupervised)	Discover patterns (clustering/reduction)	K-means, DBSCAN, PCA, t-SNE
+This cheat sheet highlights the key concepts and models of ML, SL, and USL in a quick and concise format!
