@@ -1,0 +1,92 @@
+Imagine you're baking a cake, and you have a recipe. 
+The recipe gives you instructions, but there are some parts where you can choose things, 
+like how much sugar to add or how hot to set the oven. These choices can change how the cake turns out.
+
+In machine learning, hyperparameters are like those choices in the recipe. 
+They are settings that you can adjust before you start training the model, 
+like how fast it learns (learning rate) or how many steps it takes to finish (number of iterations). 
+Just like how changing the sugar or oven temperature can make the cake sweeter or faster to bake, 
+changing hyperparameters can make the model work better or worse. You have to find the right settings for the best results!
+
+
+Here are some multiple-choice questions (MCQs) on hyperparameters:
+
+1. What is a hyperparameter in machine learning?
+a) A value learned from the data during training
+b) A setting that is manually set before training the model
+c) The output of the model predictions
+d) The error rate of the model
+
+Answer: b) A setting that is manually set before training the model
+
+2. Which of the following is an example of a hyperparameter?
+a) Model weights
+b) Learning rate
+c) Training data size
+d) Model output predictions
+
+Answer: b) Learning rate
+
+3. How are hyperparameters typically chosen?
+a) Automatically learned during training
+b) Randomly assigned without testing
+c) Manually set or tuned using techniques like grid search
+d) Fixed to zero for all models
+
+Answer: c) Manually set or tuned using techniques like grid search
+
+4. What happens if a hyperparameter like learning rate is too high?
+a) The model trains faster and achieves higher accuracy
+b) The model may overshoot and fail to converge
+c) The model becomes more robust to noise
+d) The model trains too slowly
+
+Answer: b) The model may overshoot and fail to converge
+
+5. Which of these techniques can be used to tune hyperparameters?
+a) Backpropagation
+b) Gradient Descent
+c) Grid Search or Random Search
+d) Batch Normalization
+
+Answer: c) Grid Search or Random Search
+
+6. Why is hyperparameter tuning important?
+a) It ensures the model fits the training data exactly
+b) It helps find the settings that optimize model performance
+c) It reduces the size of the training data
+d) It eliminates the need for a validation dataset
+
+Answer: b) It helps find the settings that optimize model performance
+
+------------------------------------------------------------
+
+Explanation for #5
+
+Let’s say you’re baking cookies, and you’re trying to find the best recipe. The hyperparameters are things like:
+
+How much sugar to use (1 cup, 2 cups, etc.)
+How long to bake the cookies (10 minutes, 15 minutes, etc.)
+What oven temperature to set (350°F, 375°F, etc.)
+You don’t know the best combination, so you try different settings:
+
+Grid Search: You systematically try all possible combinations. For example:
+
+1 cup sugar, 10 minutes, 350°F
+1 cup sugar, 15 minutes, 350°F
+2 cups sugar, 10 minutes, 375°F
+And so on until you’ve tested every combination.
+Random Search: Instead of testing every combination, you randomly pick some settings to try, like:
+
+1.5 cups sugar, 12 minutes, 360°F
+2 cups sugar, 14 minutes, 375°F
+After testing, you decide which recipe (combination of hyperparameters) made the tastiest cookies! 
+That’s how hyperparameter tuning works, but for models instead of cookies. 😊
+
+
+
+
+
+
+
+
