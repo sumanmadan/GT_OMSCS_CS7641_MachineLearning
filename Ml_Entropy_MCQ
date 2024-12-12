@@ -14,12 +14,13 @@ b) 1
 c) 2
 d) Infinity
 Answer: b) 1
-ChatGPT said:
-ChatGPT
-Explanation for a Kid:
-Imagine you're flipping a coin. You don’t know if it will land on heads or tails, and both outcomes are equally likely. This means there's a lot of uncertainty because you don’t know what will happen.
 
-Entropy is like a way to measure how uncertain or mixed up things are. When both possibilities (like heads and tails) are equally likely, we say there’s the maximum uncertainty, meaning we can't predict which one will happen with certainty.
+Imagine you're flipping a coin. You don’t know if it will land on heads or tails, and both outcomes are equally likely. 
+This means there's a lot of uncertainty because you don’t know what will happen.
+
+Entropy is like a way to measure how uncertain or mixed up things are. 
+When both possibilities (like heads and tails) are equally likely, we say there’s the maximum uncertainty, 
+meaning we can't predict which one will happen with certainty.
 
 In this case, the entropy value is 1, because it’s the highest uncertainty you can have when there are two equally likely choices.
 
