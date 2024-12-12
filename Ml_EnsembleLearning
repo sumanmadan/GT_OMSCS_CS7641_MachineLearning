@@ -12,7 +12,8 @@ Each of these rules might be good at catching some spam emails but not all. For 
 
 Rule R1 might catch emails with "manly," but what about spam emails that don’t use that word?
 Rule R4 might catch misspelled messages, but what about spam with perfect spelling?
-Now, what if we combine all these simple rules together? Even though each rule is weak on its own, together, they can form a strong system. That’s what ensemble learning does.
+Now, what if we combine all these simple rules together? Even though each rule is weak on its own, together,
+they can form a strong system. That’s what ensemble learning does.
 
 How to Combine Rules?
 Let’s take the simple example of averaging. For each email:
@@ -45,15 +46,18 @@ It’s like asking many kids to guess the number of candies in a jar—if half t
 Improving the Ensemble
 We can make our system smarter in two ways:
 
-Change the learning algorithm: Use more advanced methods like weighting the rules. For example, if R3 is more reliable, we can give it more importance when averaging.
-Change the data: Instead of applying all the rules to the entire dataset, we can split the data into smaller pieces or look at the data in different ways. 
+Change the learning algorithm: Use more advanced methods like weighting the rules.
+For example, if R3 is more reliable, we can give it more importance when averaging.
+Change the data: Instead of applying all the rules to the entire dataset, 
+we can split the data into smaller pieces or look at the data in different ways. 
 This helps each rule specialize in certain types of spam.
 Why It Works
 Ensemble learning works because combining many "okay" models often leads to a very strong model. It’s like having a group project 
 where each person does a small part well, and together, the group gets an A+!
 -----------
 Approach 1: Training Multiple Models
-This approach is like having a group of different experts, each with their own way of thinking, and letting them make predictions. For example:
+This approach is like having a group of different experts, each with their own way of thinking, 
+and letting them make predictions. For example:
 
 One expert uses decision trees (like asking a series of yes/no questions).
 Another uses perceptrons (a basic type of neural network).
@@ -90,7 +94,8 @@ Make predictions: When we get a new data point
 x 
 ′
  , each model predicts the output.
-Combine predictions: For classification problems, each model "votes" on the label (e.g., +1 or -1). The label with the most votes wins. For regression problems, we combine the predictions using the mean or median.
+Combine predictions: For classification problems, each model "votes" on the label (e.g., +1 or -1).
+The label with the most votes wins. For regression problems, we combine the predictions using the mean or median.
 Why it works: Each model might have strengths and weaknesses. By combining them, we smooth out the errors of individual models.
 
 Approach 2: Training on Multiple Datasets
@@ -98,8 +103,10 @@ This approach is like training clones of the same expert on different experience
 
 Subset of data: Instead of using the entire dataset, we create multiple smaller datasets by sampling from the original dataset 
 𝐷
-D. A popular way to do this is bootstrapping, where we randomly pick data points with replacement (some points might appear multiple times in the subset).
-For example, if the original dataset has 100 examples, each subset might still have 100 examples, but some will be duplicates, and some will be missing.
+D. A popular way to do this is bootstrapping, 
+where we randomly pick data points with replacement (some points might appear multiple times in the subset).
+For example, if the original dataset has 100 examples,
+each subset might still have 100 examples, but some will be duplicates, and some will be missing.
 Train the same model: We train the same type of classifier (like a decision tree or a perceptron) on each subset.
 Make predictions: For a new data point 
 𝑥
@@ -115,7 +122,8 @@ Approach 1: Combines different types of models trained on the same data. Each mo
 Approach 2: Combines the same type of model trained on different subsets of data. Each model learns slightly different patterns.
 Both approaches aim to reduce errors and make predictions more reliable.
 --------------------------------------------------------------------------
-Let’s say you want to know the best ice cream flavor in your town. Instead of asking just one person, here’s how you can use bagging to get a better answer:
+Let’s say you want to know the best ice cream flavor in your town. Instead of asking just one person, 
+here’s how you can use bagging to get a better answer:
 
 Step 1: Split into Groups
 You have a big group of people (your dataset). You divide them into smaller random groups. Let’s say:
@@ -139,9 +147,11 @@ Now, you take all the answers and combine them:
 If most friends say "Vanilla," it becomes the final answer (for a classification problem).
 If they give you numbers (like scores for each flavor), you take the average (for a regression problem).
 Why It’s Smart
-If one friend gets a weird group of people who love an unusual flavor (like licorice), their choice won’t dominate the results because you’re looking at everyone’s answers.
+If one friend gets a weird group of people who love an unusual flavor (like licorice), 
+their choice won’t dominate the results because you’re looking at everyone’s answers.
 Combining multiple small surveys gives a much better idea of the town’s favorite ice cream flavor than relying on just one survey.
 Key Lesson
-Bagging is like asking several smaller groups of people and combining their answers to make a smarter, more reliable decision. It works great when each group might give slightly different answers but still captures part of the truth!
+Bagging is like asking several smaller groups of people and combining their answers to make a smarter, more reliable decision. 
+It works great when each group might give slightly different answers but still captures part of the truth!
 
 
