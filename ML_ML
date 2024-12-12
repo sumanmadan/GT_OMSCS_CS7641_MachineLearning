@@ -18,6 +18,7 @@ SVM: Binary classification with optimal hyperplane
 KNN: Classifies based on nearest data points
 Decision Trees: Classification/regression with decision rules
 Random Forest: Ensemble of decision trees
+
 Unsupervised Learning (USL)
 Definition: Learning from unlabeled data to find hidden patterns.
 Goal: Discover structures or groupings in data without specific labels.
